@@ -1,0 +1,28 @@
+/*  C++ Program to find Factorial of a Number using for loop  */
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i, n, fact=1;
+
+    cout<<"Enter any positive number :: ";
+    cin>>n;
+
+    for(i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+    cout<<"\nFactorial of Number [ "<<n<<"! ] is :: "<<fact<<"\n";
+
+    return 0;
+}
+Output : :
+/*  C++ Program to find Factorial of a Number using for loop */
+
+Enter any positive number :: 6
+
+Factorial of Number [ 6! ] is :: 720
+
+Process returned 0
